@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.work-sans-fonts> {
+.work-sans-fonts {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -53,8 +53,6 @@ main > section{
 .header-container
 {
     background-color: rgba(255, 216, 14, 10%);
-    /* width: 1920px;
-    height: 1322px;  */
     margin: 0 auto;
 }
 .navbar{
@@ -79,11 +77,13 @@ main > section{
     font-weight: 500;
 }
 .brand-container{
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin: 0 auto;
+    max-width: 80%;
 }
 .brand-contents{
-    width: 862px;
+    /* width: 862px; */
+    width: 70%;
     height: 300px;
     margin: 0 auto;
     margin-bottom: 50px;
@@ -136,11 +136,14 @@ main > section{
     box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
     border-radius: 8px;
     margin-bottom: 20px;
-    width: 500px;
+    width: 80%;
     height: 140px;
     
 }
 .feature-architect{
+    margin-top: 180px;
+}
+.feature-architect img{
     width: 100%;
 }
 
@@ -182,7 +185,7 @@ main > section{
 .facts-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 124px;
+    gap: 110px;
 }
 .fact-number{
 font-size: 2.8rem;
@@ -236,10 +239,25 @@ margin-bottom: 5px;
         justify-items: center;
         gap: 24px;
     }
+    .feature-architect{
+        margin-top: 0px;
+    }
     #experience-badge{
-        margin-top: 20px;
-        margin-left: 20px ;
+       margin: 20px auto;
         justify-items: center;
+    }
+    .brand-container{
+        /* max-width: 1440px; */
+        margin: 20 auto;
+        max-width: 80%;
+    }
+    .brand-contents{
+       
+        /* width: 70%; */
+            
+    }
+    .brand-contents h1{
+        font-size: 2rem;
     }
     
     
@@ -259,7 +277,7 @@ margin-bottom: 5px;
     #experience-badge{
         margin-top: 20px;
         margin-left: 20px ;
-        justify-items: center;
+        
     }
     .facts-container{
         justify-items: center;
